@@ -46,6 +46,7 @@ const gll = {
          readSize += bufferSize
          bufferSize = readSize
        }
+       fs.closeSync(file)
        result = Buffer.concat(bufferList.reverse()).toString(encoding)
        if (!flag) {
          resolve(result)

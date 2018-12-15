@@ -1,6 +1,6 @@
 {
   "name": "get-last-lines",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "[![NPM](https://nodei.co/npm/get-last-lines.png?compact=true)](https://nodei.co/npm/get-last-lines/)",
   "main": "index.js",
   "scripts": {
